@@ -11,7 +11,7 @@
   </PIN>
   <PIN pinname="Text" visible="1">
   </PIN>
-  <PIN pinname="name" visible="1">
+  <PIN pinname="name" visible="1" values="||">
   </PIN>
   <PIN pinname="value" visible="1">
   </PIN>
@@ -23,15 +23,15 @@
   </PIN>
   </NODE>
   <NODE id="221" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1800" top="8340" width="100" height="100">
+  <BOUNDS type="Node" left="1620" top="8265" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
+  <PIN pinname="Input 1" visible="1" values="|1|">
   </PIN>
-  <PIN pinname="Input 2" visible="1">
+  <PIN pinname="Input 2" visible="1" values="|1|">
   </PIN>
-  <PIN pinname="Input 3" visible="1">
+  <PIN pinname="Input 3" visible="1" values="|1|">
   </PIN>
-  <PIN pinname="Input 4" visible="1">
+  <PIN pinname="Input 4" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
@@ -476,26 +476,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="253" nodename="TextInput (HTML)" systemname="TextInput (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6150" top="2355" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Parent" visible="1">
-  </PIN>
-  <PIN pinname="Text" visible="1">
-  </PIN>
-  <PIN pinname="name" visible="1">
-  </PIN>
-  <PIN pinname="value" visible="1">
-  </PIN>
-  <PIN pinname="Enabled" visible="1">
-  </PIN>
-  <PIN pinname="Attribute Names" visible="0" values="||">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="255" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="6555" top="1800" width="100" height="100">
   </BOUNDS>
@@ -514,20 +494,44 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="256" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5415" top="1785" width="100" height="100">
+  <NODE id="257" nodename="GetValue (HTML)" systemname="GetValue (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1890" top="9705" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Property Name" visible="1" values="|width|">
-  </PIN>
-  <PIN pinname="Property Value" visible="1" values="|60px|">
+  <PIN pinname="Element" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <LINK srcnodeid="221" srcpinname="Output" dstnodeid="220" dstpinname="value">
-  </LINK>
+  <NODE id="260" nodename="AsValue (String)" systemname="AsValue (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2430" top="10365" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="261" nodename="Add (Value Spectral)" systemname="Add (Value Spectral)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2115" top="10980" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="262" nodename="AsString (Value)" systemname="AsString (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2385" top="11850" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="SubType" visible="1" values="|Integer (MinInt .. MaxInt)|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="222" srcpinname="Layers Out" dstnodeid="220" dstpinname="Parent">
   </LINK>
   <LINK srcnodeid="223" srcpinname="Element Slot 1" dstnodeid="222" dstpinname="Parent">
@@ -582,8 +586,16 @@
   </LINK>
   <LINK srcnodeid="249" srcpinname="Element Slot 4" dstnodeid="255" dstpinname="Parent">
   </LINK>
-  <LINK srcnodeid="255" srcpinname="Layers Out" dstnodeid="253" dstpinname="Parent">
+  <LINK srcnodeid="220" srcpinname="Layers Out" dstnodeid="257" dstpinname="Element">
   </LINK>
-  <LINK srcnodeid="256" srcpinname="Style Out" dstnodeid="253" dstpinname="Style In">
+  <LINK srcnodeid="221" srcpinname="Output" dstnodeid="220" dstpinname="value">
+  </LINK>
+  <LINK srcnodeid="257" srcpinname="Output" dstnodeid="260" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="260" srcpinname="Output" dstnodeid="261" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="261" srcpinname="Output" dstnodeid="262" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="262" srcpinname="Output" dstnodeid="255" dstpinname="Text">
   </LINK>
   </PATCH>
