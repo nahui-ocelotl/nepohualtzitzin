@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="6840" height="28080">
+  <BOUNDS type="Window" width="7440" height="28080">
   </BOUNDS>
   <NODE id="230" nodename="Checkbox (HTML)" systemname="Checkbox (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="960" top="7845" width="100" height="100">
@@ -609,7 +609,7 @@
   </PIN>
   </NODE>
   <NODE id="296" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10335" top="5070" width="6705" height="100">
+  <BOUNDS type="Node" left="10395" top="5760" width="6705" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|amitla|">
   </PIN>
@@ -665,13 +665,33 @@
   </PIN>
   <PIN pinname="Input 27" visible="1" values="|mahtlacpohualli|">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|27|">
+  <PIN pinname="Input 28" visible="1">
+  </PIN>
+  <PIN pinname="Input 29" visible="1" values="|mahtlactlicepohualli|">
+  </PIN>
+  <PIN pinname="Input 30" visible="1">
+  </PIN>
+  <PIN pinname="Input 31" visible="1" values="|mahtlactliomepohualli|">
+  </PIN>
+  <PIN pinname="Input 32" visible="1">
+  </PIN>
+  <PIN pinname="Input 33" visible="1" values="|mahtlactliyeipohualli|">
+  </PIN>
+  <PIN pinname="Input 34" visible="1">
+  </PIN>
+  <PIN pinname="Input 35" visible="1" values="|mahtlactlinahuipohualli|">
+  </PIN>
+  <PIN pinname="Input 36" visible="1">
+  </PIN>
+  <PIN pinname="Input 37" visible="1" values="|caxtolpohualli|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|37|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="297" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10455" top="2385" width="100" height="100">
+  <BOUNDS type="Node" left="10470" top="195" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|ce|">
   </PIN>
@@ -691,7 +711,7 @@
   </BOUNDS>
   <PIN pinname="[ From .." visible="1">
   </PIN>
-  <PIN pinname=".. To [" visible="1" values="|300|">
+  <PIN pinname=".. To [" visible="1" values="|301|">
   </PIN>
   <PIN pinname="Phase" visible="1">
   </PIN>
@@ -721,7 +741,7 @@
   </PIN>
   </NODE>
   <NODE id="301" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11220" top="3030" width="100" height="100">
+  <BOUNDS type="Node" left="11235" top="840" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|chicuace|">
   </PIN>
@@ -737,7 +757,7 @@
   </PIN>
   </NODE>
   <NODE id="302" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11085" top="4095" width="100" height="100">
+  <BOUNDS type="Node" left="11100" top="1905" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -751,7 +771,7 @@
   </PIN>
   </NODE>
   <NODE id="303" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11685" top="4065" width="100" height="100">
+  <BOUNDS type="Node" left="11700" top="1875" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -765,7 +785,7 @@
   </PIN>
   </NODE>
   <NODE id="304" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12270" top="4035" width="100" height="100">
+  <BOUNDS type="Node" left="12285" top="1845" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -779,7 +799,7 @@
   </PIN>
   </NODE>
   <NODE id="305" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12240" top="3045" width="100" height="100">
+  <BOUNDS type="Node" left="12255" top="855" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -801,7 +821,7 @@
   </PIN>
   </NODE>
   <NODE id="310" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12840" top="4005" width="100" height="100">
+  <BOUNDS type="Node" left="12855" top="1815" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -815,7 +835,7 @@
   </PIN>
   </NODE>
   <NODE id="311" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13470" top="3975" width="100" height="100">
+  <BOUNDS type="Node" left="13485" top="1785" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -829,7 +849,7 @@
   </PIN>
   </NODE>
   <NODE id="312" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14055" top="3960" width="100" height="100">
+  <BOUNDS type="Node" left="11115" top="3015" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -843,7 +863,7 @@
   </PIN>
   </NODE>
   <NODE id="313" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14640" top="3960" width="100" height="100">
+  <BOUNDS type="Node" left="11700" top="3015" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -869,7 +889,7 @@
   </PIN>
   </NODE>
   <NODE id="315" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15300" top="3960" width="100" height="100">
+  <BOUNDS type="Node" left="12360" top="3015" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -883,7 +903,7 @@
   </PIN>
   </NODE>
   <NODE id="316" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15915" top="3945" width="100" height="100">
+  <BOUNDS type="Node" left="12975" top="3000" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -897,7 +917,7 @@
   </PIN>
   </NODE>
   <NODE id="317" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16560" top="3915" width="100" height="100">
+  <BOUNDS type="Node" left="13620" top="2970" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -911,11 +931,81 @@
   </PIN>
   </NODE>
   <NODE id="318" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17160" top="3930" width="100" height="100">
+  <BOUNDS type="Node" left="11115" top="3885" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
   <PIN pinname="Input 1" visible="1" values="|chicnauhpohualli|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="319" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11760" top="3870" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|mahtlactpohualli|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="320" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12330" top="3885" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|mahtlactlicepohualli|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="321" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12930" top="3855" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|mahtlactliomepohualli|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="322" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="13650" top="3810" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|mahtlactliomepohualli|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="323" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11145" top="4650" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|mahtlactlinahuipohualli|">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
@@ -1089,5 +1179,25 @@
   <LINK srcnodeid="305" srcpinname="Output" dstnodeid="318" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="318" srcpinname="Output" dstnodeid="296" dstpinname="Input 26">
+  </LINK>
+  <LINK srcnodeid="319" srcpinname="Output" dstnodeid="296" dstpinname="Input 28">
+  </LINK>
+  <LINK srcnodeid="305" srcpinname="Output" dstnodeid="319" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="320" srcpinname="Output" dstnodeid="296" dstpinname="Input 30">
+  </LINK>
+  <LINK srcnodeid="305" srcpinname="Output" dstnodeid="320" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="305" srcpinname="Output" dstnodeid="321" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="321" srcpinname="Output" dstnodeid="296" dstpinname="Input 32">
+  </LINK>
+  <LINK srcnodeid="322" srcpinname="Output" dstnodeid="296" dstpinname="Input 34">
+  </LINK>
+  <LINK srcnodeid="305" srcpinname="Output" dstnodeid="322" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="305" srcpinname="Output" dstnodeid="323" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="323" srcpinname="Output" dstnodeid="296" dstpinname="Input 36">
   </LINK>
   </PATCH>
