@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="7335" height="28080">
+  <BOUNDS type="Window" width="6840" height="28080">
   </BOUNDS>
   <NODE id="230" nodename="Checkbox (HTML)" systemname="Checkbox (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="960" top="7845" width="100" height="100">
@@ -609,7 +609,7 @@
   </PIN>
   </NODE>
   <NODE id="296" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10335" top="5070" width="4830" height="100">
+  <BOUNDS type="Node" left="10335" top="5070" width="6705" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|amitla|">
   </PIN>
@@ -647,7 +647,25 @@
   </PIN>
   <PIN pinname="Input 18" visible="1">
   </PIN>
-  <PIN pinname="Input Count" visible="0" values="|18|">
+  <PIN pinname="Input 19" visible="1" values="|chicuacempohualli|">
+  </PIN>
+  <PIN pinname="Input 20" visible="1">
+  </PIN>
+  <PIN pinname="Input 21" visible="1" values="|chicompohualli|">
+  </PIN>
+  <PIN pinname="Input 22" visible="1">
+  </PIN>
+  <PIN pinname="Input 23" visible="1" values="|chicueipohualli|">
+  </PIN>
+  <PIN pinname="Input 24" visible="1">
+  </PIN>
+  <PIN pinname="Input 25" visible="1" values="|chicnauhpohualli|">
+  </PIN>
+  <PIN pinname="Input 26" visible="1">
+  </PIN>
+  <PIN pinname="Input 27" visible="1" values="|mahtlacpohualli|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|27|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -850,6 +868,62 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="315" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="15300" top="3960" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|chicuacempohualli|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="316" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="15915" top="3945" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|chicuacempohualli|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="317" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="16560" top="3915" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|chicueipohualli|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="318" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17160" top="3930" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|chicnauhpohualli|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="232" srcpinname="Layers Out" dstnodeid="230" dstpinname="Parent">
   </LINK>
   <LINK srcnodeid="231" srcpinname="Output" dstnodeid="230" dstpinname="value">
@@ -930,8 +1004,6 @@
   </LINK>
   <LINK srcnodeid="281" srcpinname="Output" dstnodeid="255" dstpinname="Text">
   </LINK>
-  <LINK srcnodeid="283" srcpinname="Output" dstnodeid="276" dstpinname="To">
-  </LINK>
   <LINK srcnodeid="288" srcpinname="Layers Out" dstnodeid="249" dstpinname="Parent">
   </LINK>
   <LINK srcnodeid="288" srcpinname="Layers Out" dstnodeid="290" dstpinname="Element">
@@ -1001,5 +1073,21 @@
   <LINK srcnodeid="314" srcpinname="Output" dstnodeid="300" dstpinname="Input String">
   </LINK>
   <LINK srcnodeid="293" srcpinname="Y Output Value" dstnodeid="314" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="305" srcpinname="Output" dstnodeid="315" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="315" srcpinname="Output" dstnodeid="296" dstpinname="Input 20">
+  </LINK>
+  <LINK srcnodeid="305" srcpinname="Output" dstnodeid="316" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="316" srcpinname="Output" dstnodeid="296" dstpinname="Input 22">
+  </LINK>
+  <LINK srcnodeid="305" srcpinname="Output" dstnodeid="317" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="317" srcpinname="Output" dstnodeid="296" dstpinname="Input 24">
+  </LINK>
+  <LINK srcnodeid="305" srcpinname="Output" dstnodeid="318" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="318" srcpinname="Output" dstnodeid="296" dstpinname="Input 26">
   </LINK>
   </PATCH>
