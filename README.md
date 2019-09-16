@@ -1,3 +1,3 @@
 # nepohualtzitzin
-mexican abacus  
+Mexican abacus with Nahuatl language names.
 www.nahui-ocelotl.com
