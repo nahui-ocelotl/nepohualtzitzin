@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="12990" height="30285">
+  <BOUNDS type="Window" width="12495" height="30285">
   </BOUNDS>
   <NODE id="230" nodename="Checkbox (HTML)" systemname="Checkbox (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="645" top="15645" width="100" height="100">
@@ -1045,7 +1045,7 @@
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|.::|">
+  <PIN pinname="Input 3" visible="1" values="|::.|">
   </PIN>
   <PIN pinname="Input 4" visible="1">
   </PIN>
@@ -1723,13 +1723,13 @@
   <NODE id="375" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="13530" top="7440" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|::::;|">
+  <PIN pinname="Input 1" visible="1" values="|;::::|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|:::;;|">
+  <PIN pinname="Input 2" visible="1" values="|;;:::|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|::;;;|">
+  <PIN pinname="Input 3" visible="1" values="|;;;::|">
   </PIN>
-  <PIN pinname="Input 4" visible="1" values="|:;;;;|">
+  <PIN pinname="Input 4" visible="1" values="|;;;;:|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|4|">
   </PIN>
