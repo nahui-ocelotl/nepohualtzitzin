@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="16005" height="28080">
+  <BOUNDS type="Window" width="11715" height="30150">
   </BOUNDS>
   <NODE id="230" nodename="Checkbox (HTML)" systemname="Checkbox (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="960" top="7845" width="100" height="100">
@@ -1462,6 +1462,166 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="353" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1890" top="24525" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="354" nodename="GetValue (HTML)" systemname="GetValue (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2535" top="25170" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="355" nodename="AsValue (String)" systemname="AsValue (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1650" top="26370" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="356" nodename="Add (Value Spectral)" systemname="Add (Value Spectral)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2265" top="27015" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="357" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="2520" top="27600" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="359" nodename="Substitute (String)" systemname="Substitute (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2040" top="25755" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="From" visible="1" values="|on|">
+  </PIN>
+  <PIN pinname="To" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="360" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="1590" top="23925" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|.check1|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="361" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4515" top="24465" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="362" nodename="GetValue (HTML)" systemname="GetValue (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5160" top="25110" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="363" nodename="AsValue (String)" systemname="AsValue (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4275" top="26310" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="364" nodename="Add (Value Spectral)" systemname="Add (Value Spectral)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4890" top="26955" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="365" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="5025" top="28410" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="366" nodename="Substitute (String)" systemname="Substitute (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4665" top="25695" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="From" visible="1" values="|on|">
+  </PIN>
+  <PIN pinname="To" visible="1" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="367" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="4215" top="23865" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|.check2|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="368" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4635" top="27660" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|5|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="232" srcpinname="Layers Out" dstnodeid="230" dstpinname="Parent">
   </LINK>
   <LINK srcnodeid="231" srcpinname="Output" dstnodeid="230" dstpinname="value">
@@ -1739,5 +1899,31 @@
   <LINK srcnodeid="330" srcpinname="Output" dstnodeid="339" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="330" srcpinname="Output" dstnodeid="343" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="353" srcpinname="Layers Out" dstnodeid="354" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="355" srcpinname="Output" dstnodeid="356" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="356" srcpinname="Output" dstnodeid="357" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="354" srcpinname="Output" dstnodeid="359" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="359" srcpinname="Output" dstnodeid="355" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="360" srcpinname="Output String" dstnodeid="353" dstpinname="Selector">
+  </LINK>
+  <LINK srcnodeid="367" srcpinname="Output String" dstnodeid="361" dstpinname="Selector">
+  </LINK>
+  <LINK srcnodeid="361" srcpinname="Layers Out" dstnodeid="362" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="366" srcpinname="Output" dstnodeid="363" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="363" srcpinname="Output" dstnodeid="364" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="362" srcpinname="Output" dstnodeid="366" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="364" srcpinname="Output" dstnodeid="368" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="368" srcpinname="Output" dstnodeid="365" dstpinname="Y Input Value">
   </LINK>
   </PATCH>
