@@ -783,7 +783,7 @@
   <NODE id="302" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="12195" top="1905" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Intersperse String" visible="1" values="| |">
+  <PIN pinname="Intersperse String" visible="1" values="||">
   </PIN>
   <PIN pinname="Input 1" visible="1" values="|mahtlactli|">
   </PIN>
@@ -797,7 +797,7 @@
   <NODE id="303" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="12795" top="1875" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Intersperse String" visible="1" values="| |">
+  <PIN pinname="Intersperse String" visible="1" values="||">
   </PIN>
   <PIN pinname="Input 1" visible="1" values="|caxtolli|">
   </PIN>
@@ -1321,7 +1321,7 @@
   </PIN>
   </NODE>
   <NODE id="338" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15555" top="10680" width="420" height="100">
+  <BOUNDS type="Node" left="12330" top="10950" width="420" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1" values="| |">
   </PIN>
@@ -1335,7 +1335,7 @@
   </PIN>
   </NODE>
   <NODE id="339" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="10380" top="11535" width="100" height="100">
+  <BOUNDS type="Node" left="13875" top="10980" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1" values="| |">
   </PIN>
@@ -1349,13 +1349,13 @@
   </PIN>
   </NODE>
   <NODE id="340" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12255" top="11115" width="100" height="100">
+  <BOUNDS type="Node" left="11550" top="10950" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1" values="| |">
   </PIN>
-  <PIN pinname="Input 1" visible="1">
+  <PIN pinname="Input 1" visible="1" values="|;::::|||">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|;::::|||,|:|,|.:|,|::|,|.::|,|:::|,|.:::|,|::::|,|.::::|,|:::::|,|.:::::|,|::::::|,|.::::::|,|:::::::|,|;;;;;|,|.;;;;;|,|:;;;;;|,|.:;;;;;|,|::;;;;;|">
+  <PIN pinname="Input 2" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -1377,13 +1377,13 @@
   </PIN>
   </NODE>
   <NODE id="342" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14025" top="11010" width="100" height="100">
+  <BOUNDS type="Node" left="12210" top="9690" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1" values="| |">
   </PIN>
-  <PIN pinname="Input 1" visible="1">
+  <PIN pinname="Input 1" visible="1" values="|;;;::|||">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|;;;::|||">
+  <PIN pinname="Input 2" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -1391,13 +1391,13 @@
   </PIN>
   </NODE>
   <NODE id="343" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11685" top="11655" width="100" height="100">
+  <BOUNDS type="Node" left="11625" top="11760" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1" values="| |">
   </PIN>
-  <PIN pinname="Input 1" visible="1">
+  <PIN pinname="Input 1" visible="1" values="|;;;;:|||">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|;;;;:|||">
+  <PIN pinname="Input 2" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -1475,13 +1475,13 @@
   </PIN>
   </NODE>
   <NODE id="355" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12375" top="11610" width="100" height="100">
+  <BOUNDS type="Node" left="12330" top="11640" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1" values="| |">
   </PIN>
-  <PIN pinname="Input 1" visible="1">
+  <PIN pinname="Input 1" visible="1" values="|;;;;;|||">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|;;;;;|||">
+  <PIN pinname="Input 2" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -1683,7 +1683,7 @@
   </PIN>
   </NODE>
   <NODE id="371" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="12060" top="4845" width="100" height="100">
+  <BOUNDS type="Node" left="12120" top="4815" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1" values="| |">
   </PIN>
@@ -1970,21 +1970,13 @@
   </LINK>
   <LINK srcnodeid="326" srcpinname="Output" dstnodeid="324" dstpinname="Input 4">
   </LINK>
-  <LINK srcnodeid="330" srcpinname="Output" dstnodeid="340" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="330" srcpinname="Output" dstnodeid="341" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="330" srcpinname="Output" dstnodeid="342" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="330" srcpinname="Output" dstnodeid="343" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="305" srcpinname="Output" dstnodeid="353" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="353" srcpinname="Output" dstnodeid="296" dstpinname="Input 38">
   </LINK>
   <LINK srcnodeid="354" srcpinname="Y Output Value" dstnodeid="298" dstpinname=".. To [">
-  </LINK>
-  <LINK srcnodeid="330" srcpinname="Output" dstnodeid="355" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="355" srcpinname="Output" dstnodeid="324" dstpinname="Input 38">
   </LINK>
@@ -2069,5 +2061,13 @@
   <LINK srcnodeid="330" srcpinname="Output" dstnodeid="338" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="330" srcpinname="Output" dstnodeid="339" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="330" srcpinname="Output" dstnodeid="342" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="330" srcpinname="Output" dstnodeid="340" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="330" srcpinname="Output" dstnodeid="355" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="330" srcpinname="Output" dstnodeid="343" dstpinname="Input 2">
   </LINK>
   </PATCH>
