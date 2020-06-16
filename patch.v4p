@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="30285">
+  <BOUNDS type="Window" width="19740" height="30285">
   </BOUNDS>
   <NODE id="255" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="20640" top="17205" width="100" height="100">
@@ -1915,7 +1915,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|background-color|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|black|">
+  <PIN pinname="Property Value" visible="1" values="|Tan|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
