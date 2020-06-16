@@ -3,7 +3,7 @@
   <BOUNDS type="Window" width="20235" height="30285">
   </BOUNDS>
   <NODE id="255" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="20640" top="17205" width="100" height="100">
+  <BOUNDS type="Node" left="22035" top="21930" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -31,7 +31,7 @@
   </PIN>
   </NODE>
   <NODE id="281" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="21450" top="16410" width="100" height="100">
+  <BOUNDS type="Node" left="22845" top="21135" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1" values="| |">
   </PIN>
@@ -1078,18 +1078,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="373" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="24570" top="15330" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|.|||">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="375" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="28605" top="7500" width="100" height="100">
   </BOUNDS>
@@ -1966,6 +1954,246 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="489" nodename="Substitute (String)" systemname="Substitute (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="27915" top="17535" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="From" visible="1">
+  </PIN>
+  <PIN pinname="To" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="490" nodename="AsString (Value)" systemname="AsString (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="27915" top="16785" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="SubType" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="491" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="22845" top="20385" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input 3" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="492" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="23340" top="16440" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|399|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="493" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="23820" top="20355" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input 3" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="495" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="24720" top="16230" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|.⌠|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|:⌠|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|:.⌠|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|::⌠|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="496" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="25710" top="16215" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|centzontli|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|ometzontli|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|yeitzontli|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|nahuitzontli|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|4|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="497" nodename="GetSlice (Node)" systemname="GetSlice (Node)" componentmode="Hidden">
+  <BOUNDS type="Node" left="24615" top="16920" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="498" nodename="GetSlice (Node)" systemname="GetSlice (Node)" componentmode="Hidden">
+  <BOUNDS type="Node" left="26070" top="16950" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="499" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="28305" top="14775" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1" values="|400|">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1" values="|1600|">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|3|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1" values="|Clamp|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="500" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="28650" top="15945" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="502" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="23520" top="17220" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="503" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="23865" top="16470" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|1999|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="504" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="24840" top="17985" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|::.⌠|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|:::::⌠|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|;;;;;⌠|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="505" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="25830" top="17970" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|macuillitzontli|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|mahtlactlitzontli|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|caxtollitzontli|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|3|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="506" nodename="GetSlice (Node)" systemname="GetSlice (Node)" componentmode="Hidden">
+  <BOUNDS type="Node" left="24675" top="19005" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="BinSize" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="508" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="27165" top="18015" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1" values="|2000|">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1" values="|6000|">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|2|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1" values="|Clamp|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="513" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="26265" top="19080" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="281" srcpinname="Output" dstnodeid="255" dstpinname="Text">
   </LINK>
   <LINK srcnodeid="299" srcpinname="Output" dstnodeid="294" dstpinname="From">
@@ -2013,8 +2241,6 @@
   <LINK srcnodeid="305" srcpinname="Output" dstnodeid="312" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="305" srcpinname="Output" dstnodeid="313" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="300" srcpinname="Output String" dstnodeid="281" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="294" srcpinname="Output" dstnodeid="314" dstpinname="Input">
   </LINK>
@@ -2109,8 +2335,6 @@
   <LINK srcnodeid="344" srcpinname="Output" dstnodeid="347" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="293" srcpinname="Y Output Value" dstnodeid="347" dstpinname="Index">
-  </LINK>
-  <LINK srcnodeid="347" srcpinname="Output" dstnodeid="281" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="326" srcpinname="Output" dstnodeid="324" dstpinname="Input 4">
   </LINK>
@@ -2347,5 +2571,59 @@
   <LINK srcnodeid="488" srcpinname="Style Out" dstnodeid="390" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="463" srcpinname="Output" dstnodeid="466" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="293" srcpinname="Y Output Value" dstnodeid="490" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="490" srcpinname="Output" dstnodeid="489" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="293" srcpinname="Y Output Value" dstnodeid="492" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="300" srcpinname="Output String" dstnodeid="493" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="347" srcpinname="Output" dstnodeid="491" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="493" srcpinname="Output" dstnodeid="281" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="495" srcpinname="Output" dstnodeid="497" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="497" srcpinname="Output" dstnodeid="491" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="496" srcpinname="Output" dstnodeid="498" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="498" srcpinname="Output" dstnodeid="493" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="293" srcpinname="Y Output Value" dstnodeid="499" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="499" srcpinname="Output" dstnodeid="500" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="500" srcpinname="Y Output Value" dstnodeid="497" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="500" srcpinname="Y Output Value" dstnodeid="498" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="293" srcpinname="Y Output Value" dstnodeid="503" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="503" srcpinname="Output" dstnodeid="502" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="492" srcpinname="Output" dstnodeid="502" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="502" srcpinname="Output" dstnodeid="491" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="502" srcpinname="Output" dstnodeid="493" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="504" srcpinname="Output" dstnodeid="506" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="293" srcpinname="Y Output Value" dstnodeid="508" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="508" srcpinname="Output" dstnodeid="506" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="491" srcpinname="Output" dstnodeid="281" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="506" srcpinname="Output" dstnodeid="491" dstpinname="Input 3">
+  </LINK>
+  <LINK srcnodeid="505" srcpinname="Output" dstnodeid="513" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="508" srcpinname="Output" dstnodeid="513" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="513" srcpinname="Output" dstnodeid="493" dstpinname="Input 3">
   </LINK>
   </PATCH>
